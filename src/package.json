@@ -1,0 +1,25 @@
+{
+  "name": "pixijs",
+  "version": "0.0.0",
+  "description": "All of PixiJS in a single package",
+  "keywords": ["pixijs", "rendering", "graphics", "canvas", "webgl"],
+  "author": "Mat Groves",
+  "contributors": [
+    "Ivan Popelyshev <ivan.popelyshev@gmail.com>",
+    "Matt Karl <matt@mattkarl.com>",
+    "Chad Engler <chad@pantherdev.com>",
+    "Richard Davey <rdavey@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.pixijs.com/",
+  "bugs": "https://github.com/pixijs/pixijs/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixijs/pixijs.git"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/pixijs"
+  }
+}
+  

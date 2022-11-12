@@ -1,0 +1,25 @@
+{
+  "name": "pixijs-bundler",
+  "description": "Combine multiple PixiJS packages into a single package",
+  "private": true,
+  "scripts": {
+    "build": "node index.mjs"
+  },
+  "keywords": [],
+  "author": "PixiJS",
+  "license": "MIT",
+  "devDependencies": {
+    "fs-extra": "^10.1.0",
+    "replace-in-files": "^3.0.0"
+  },
+  "dependencies": {
+    "@pixi/basis": "^7.0.4",
+    "@pixi/graphics-extras": "^7.0.4",
+    "@pixi/math-extras": "^7.0.4",
+    "@pixi/node": "^7.0.4",
+    "@pixi/unsafe-eval": "^7.0.4",
+    "@pixi/webworker": "^7.0.4",
+    "pixi.js": "^7.0.4",
+    "pixi.js-legacy": "^7.0.4"
+  }
+}
