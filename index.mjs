@@ -2,6 +2,7 @@ import fs from 'fs-extra';
 import path from 'path';
 import { execSync } from 'child_process';
 import replaceInFiles from 'replace-in-files';
+import minimist from 'minimist';
 
 /** Represents a single package. */
 class Package {
@@ -78,6 +79,17 @@ class Package {
     }
 }
 
+// Optional override the default version
+const { version, dryrun, tag } = minimist(process.argv.slice(2), {
+    string: ['version', 'tag'],
+    boolean: ['dryrun'],
+    default: {
+        version: null,
+        dryrun: false,
+        tag: 'latest',
+    }
+});
+
 // Create the output directory
 console.log('Create output directory');
 const outputPath = path.resolve('dist');
@@ -109,7 +121,7 @@ const publishInfo = await fs.readJson(path.resolve(outputPath, 'package.json'));
 Object.assign(
     publishInfo, {
         dependencies,
-        version: defaultPackage.info.version,
+        version: version ?? defaultPackage.info.version,
         exports: libraries
             .reduce((acc, pkg) => ({...acc, ...pkg.getExports() }),
             publishInfo.exports
@@ -192,7 +204,13 @@ await replaceInFiles({
     to: Package.aliases['pixi.js'],
 });
 
-console.log('Package output');
-execSync('npm pack', { cwd: outputPath });
+if (dryrun) {
+    console.log('Generating output');
+    execSync('npm pack', { cwd: outputPath });
+}
+else {
+    console.log('Publishing output');
+    execSync(`npm publish --tag ${tag}`, { cwd: outputPath });
+}
 
 console.log('Done');

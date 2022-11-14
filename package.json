@@ -3,13 +3,15 @@
   "description": "Combine multiple PixiJS packages into a single package",
   "private": true,
   "scripts": {
-    "build": "node index.mjs"
+    "bundle": "node index.mjs",
+    "test": "node index.mjs --dryrun"
   },
   "keywords": [],
   "author": "PixiJS",
   "license": "MIT",
   "devDependencies": {
     "fs-extra": "^10.1.0",
+    "minimist": "^1.2.7",
     "replace-in-files": "^3.0.0"
   },
   "dependencies": {
