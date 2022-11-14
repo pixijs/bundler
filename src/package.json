@@ -20,6 +20,15 @@
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/pixijs"
+  },
+  "main": "./browser/index.js",
+  "module": "./browser/index.mjs",
+  "types": "./browser/index.d.ts",
+  "files": [
+    "aliases.json"
+  ],
+  "exports": {
+    "./aliases": "./aliases.json"
   }
 }
   
