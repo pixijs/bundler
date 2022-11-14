@@ -84,6 +84,9 @@ This package is only supported in tools that support the [`exports` field](https
 * Webpack 5+
 * Parcel 2+
 * Node.js 16+
+* TypeScript 4.7+
+
+If using TypeScript, make sure to use `compilerOptions.moduleResolution` to `nodenext` or `node16`.
 
 ### Install
 
