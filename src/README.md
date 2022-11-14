@@ -21,7 +21,7 @@ hardware acceleration without prior knowledge of WebGL. Also, it's fast. Really 
 
 The names of packages have changed. These mappings are available as JSON from `pixijs/aliases`.
 
-| Old Package | New Package |
+| Official Package | New Package |
 |---|---|
 | `pixi.js` | `pixijs/browser` or `pixijs` |
 | `pixi.js-legacy` | `pixijs/browser/legacy` |
