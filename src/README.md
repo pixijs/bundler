@@ -1,7 +1,7 @@
 # PixiJS — The HTML5 Creation Engine
 
 > **Note**
-> This is an alternative package that contains all of the PixiJS packages. This is much easier to consume since it contains all of the necessary package, including optional packages in a single module.
+> This is an alternative package to `pixi.js`, `@pixi/core`, etc that contains all of the PixiJS packages. This is much easier to consume since it contains all of the necessary packages, including optional packages in a single module.
 
 ![pixi.js logo](https://pixijs.download/pixijs-banner-no-version.png)
 
