@@ -15,13 +15,13 @@
     "replace-in-files": "^3.0.0"
   },
   "dependencies": {
-    "@pixi/basis": "^7.0.4",
-    "@pixi/graphics-extras": "^7.0.4",
-    "@pixi/math-extras": "^7.0.4",
-    "@pixi/node": "^7.0.4",
-    "@pixi/unsafe-eval": "^7.0.4",
-    "@pixi/webworker": "^7.0.4",
-    "pixi.js": "^7.0.4",
-    "pixi.js-legacy": "^7.0.4"
+    "@pixi/basis": "^7.0.5",
+    "@pixi/graphics-extras": "^7.0.5",
+    "@pixi/math-extras": "^7.0.5",
+    "@pixi/node": "^7.0.5",
+    "@pixi/unsafe-eval": "^7.0.5",
+    "@pixi/webworker": "^7.0.5",
+    "pixi.js": "^7.0.5",
+    "pixi.js-legacy": "^7.0.5"
   }
 }
