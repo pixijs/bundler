@@ -41,6 +41,7 @@ The names of packages have changed. These mappings are available as JSON from `p
 | `@pixi/canvas-text` | `pixijs/text/canvas` |
 | `@pixi/compressed-textures` | `pixijs/compressed-textures` |
 | `@pixi/constants` | `pixijs/constants` |
+| `@pixi/color` | `pixijs/color` |
 | `@pixi/core` | `pixijs/core` |
 | `@pixi/display` | `pixijs/display` |
 | `@pixi/events` | `pixijs/events` |
