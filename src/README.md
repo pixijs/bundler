@@ -73,6 +73,7 @@ The names of packages have changed. These mappings are available as JSON from `p
 | `@pixi/spritesheet` | `pixijs/spritesheet` |
 | `@pixi/text` | `pixijs/text` |
 | `@pixi/text-bitmap` | `pixijs/text-bitmap` |
+| `@pixi/text-html` | `pixijs/text-html` |
 | `@pixi/ticker` | `pixijs/ticker` |
 | `@pixi/unsafe-eval` | `pixijs/unsafe-eval` |
 | `@pixi/utils` | `pixijs/utils` |
