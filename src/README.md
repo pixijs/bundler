@@ -62,7 +62,6 @@ The names of packages have changed. These mappings are available as JSON from `p
 | `@pixi/mixin-cache-as-bitmap` | `pixijs/display/cache-as-bitmap` |
 | `@pixi/mixin-get-child-by-name` | `pixijs/display/get-child-by-name` |
 | `@pixi/mixin-get-global-position` | `pixijs/display/get-global-position` |
-| `@pixi/node` | `pixijs/node` |
 | `@pixi/particle-container` | `pixijs/particle-container` |
 | `@pixi/prepare` | `pixijs/prepare` |
 | `@pixi/runner` | `pixijs/runner` |

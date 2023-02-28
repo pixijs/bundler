@@ -18,7 +18,6 @@
     "@pixi/basis": "^7.1.0",
     "@pixi/graphics-extras": "^7.1.0",
     "@pixi/math-extras": "^7.1.0",
-    "@pixi/node": "^7.1.0",
     "@pixi/unsafe-eval": "^7.1.0",
     "@pixi/webworker": "^7.1.0",
     "pixi.js": "^7.1.0",
