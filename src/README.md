@@ -3,7 +3,7 @@
 > **Note**
 > This is an alternative package to `pixi.js`, `@pixi/core`, etc that contains all of the PixiJS packages. This is much easier to consume since it contains all of the necessary packages, including optional packages in a single module.
 
-![pixi.js logo](https://pixijs.download/pixijs-banner-no-version.png)
+![pixi.js logo](https://pixijs.download/pixijs-banner-no-version.png?v=1)
 
 The aim of this project is to provide a fast lightweight 2D library that works
 across all devices. The PixiJS renderer allows everyone to enjoy the power of
